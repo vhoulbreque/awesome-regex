@@ -3,16 +3,16 @@
 This is a list of the most common and useful regex. Feel free to contribute to the list!
 
 
-## Geography
+## :earth_africa: Geography
 
-### US zip code
+### :us: US zip code
 
 ```
 /(^\d{5}(-\d{4})?$)|(^[ABCEGHJKLMNPRSTVXY]{1}\d{1}[A-Z]{1} *\d{1}[A-Z]{1}\d{1}$)/
 ```
 
 
-## Time
+## :clock10: Time
 
 ### Dates
 
@@ -30,7 +30,7 @@ Detect dates in the "DD/MM/YYYY" format.
 ```
 
 
-## INTERNET
+## :satellite: INTERNET
 
 
 ### URLS
@@ -40,14 +40,14 @@ Detect dates in the "DD/MM/YYYY" format.
 ```
 
 
-### HTML tags
+### :page_facing_up: HTML tags
 
 ```
 /^<([a-z1-6]+)([^<]+)*(?:>(.*)<\/\1>| *\/>)$/
 ```
 
 
-### Emails
+### :email: Emails
 
 ```
 /^.+@.+$/
@@ -68,7 +68,7 @@ Detect dates in the "DD/MM/YYYY" format.
 
 ## Misc
 
-### US Phone Numbers
+### :us: US Phone Numbers
 
 Detect phone numbers
 
@@ -76,7 +76,7 @@ Detect phone numbers
 /^[2-9]\d{2}-\d{3}-\d{4}$/
 ```
 
-### French Phone Numbers
+### :fr: French Phone Numbers
 
 ```
 /^(?:(?:\+|00)33[\s.-]{0,3}(?:\(0\)[\s.-]{0,3})?|0)[1-9](?:(?:[\s.-]?\d{2}){4}|\d{2}(?:[\s.-]?\d{3}){2})$/
